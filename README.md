@@ -1,2 +1,2 @@
-# Algorithms
-- This includes diferrent algorithms written in JavaScript or TypeScript
+# What is this Repo?
+- This repo includes different algorithms written in JavaScript or TypeScript
