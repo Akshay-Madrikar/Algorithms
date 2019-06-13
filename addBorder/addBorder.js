@@ -1,5 +1,3 @@
-
-
 const addBorder = ( picture ) => {
     picture.unshift( '****' )
     picture.push( '****' )
@@ -12,3 +10,9 @@ const addBorder = ( picture ) => {
 
 
 console.log( addBorder( [ 'abc', 'ded' ] ) )
+
+//Output
+[ '****',
+'*abc*',
+'*ded*',
+    '****' ]
