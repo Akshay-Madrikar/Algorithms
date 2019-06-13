@@ -4,25 +4,28 @@ Given a rectangular matrix of characters, add a border of asterisks(*) to it.
 
 For
 
+```typescript 
 picture = ["abc",
        "ded"]
+```
 the output should be
 
+```typescript
 addBorder(picture) = ["*****",
                   "*abc*",
                   "*ded*",
                   "*****"]
-
+```
 ## Hints
 
-concat()
-unshift()
-push()
+* concat()
+* unshift()
+* push()
 
 ## Input/Output
 
-[time limit] 4000ms (js)
-[input] array.string picture
+* [time limit] 4000ms (js)
+* [input] array.string picture
 A non-empty array of non-empty equal-length strings.
 
 ## Guaranteed constraints:
