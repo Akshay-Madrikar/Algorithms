@@ -1,6 +1,6 @@
 # Example
 
-For n = 29, the output should be addTwoDigits(n) = 11.
+For n = 29, the output should be sumOfDigits(n) = 11.
 
 ## Hint
 
