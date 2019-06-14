@@ -13,4 +13,4 @@ const adjacentElementsProduct = ( num ) => {
 
 
 
-console.log( adjacentElementsProduct( [ 3, 6, , -5, 7, ] ) )
+console.log( adjacentElementsProduct( [ 3, 6, , -5, 7, ] ) ) //Output : 18
