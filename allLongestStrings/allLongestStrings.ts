@@ -16,4 +16,4 @@ function allLongestStrings(inputString: string[]): string[] {
 }
 
 
-console.log(allLongestStrings(['akshay', 'abcefg', 'a', 'b', 'bc']))
+console.log(allLongestStrings(['akshay', 'abcefg', 'a', 'b', 'bc'])) //Output : [ 'akshay', 'abcefg' ]
