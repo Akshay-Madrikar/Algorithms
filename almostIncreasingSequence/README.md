@@ -10,7 +10,7 @@ You can remove 3 from the array to get the strictly increasing sequence [1, 2]. 
 
 ## Hints
 
-Nope
+* Nope
 
 ## Input/Output
 
