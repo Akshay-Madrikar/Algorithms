@@ -21,4 +21,5 @@ A non-empty array.
 1 ≤ inputArray[i].length ≤ 10.
 
 * [output] array.string
+
 Array of the longest strings, stored in the same order as in the inputArray.
