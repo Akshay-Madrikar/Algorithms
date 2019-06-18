@@ -16,7 +16,7 @@ None
 * [input] array.integer inputArray
 An array of integers containing at least two elements.
 
-## Guaranteed constraints:
+Guaranteed constraints:
 
 2 ≤ inputArray.length ≤ 10, -1000 ≤ inputArray[i] ≤ 1000.
 
