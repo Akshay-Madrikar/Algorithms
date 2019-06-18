@@ -17,7 +17,7 @@ You can remove 3 from the array to get the strictly increasing sequence [1, 2]. 
 * [time limit] 4000ms (js)
 * [input] array.integer sequence
 
-## Guaranteed constraints:
+Guaranteed constraints:
 
 2 ≤ sequence.length ≤ 105,
 
