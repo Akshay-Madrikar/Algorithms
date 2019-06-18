@@ -16,7 +16,7 @@ For param1 = 1 and param2 = 2, the output should be add(param1, param2) = 3.
 * [time limit] 4000ms (js)
 * [input] integer param1
 
-## Guaranteed constraints:
+Guaranteed constraints:
 
 -100 ≤ param1 ≤ 1000.
 
