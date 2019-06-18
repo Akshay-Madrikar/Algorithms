@@ -28,7 +28,7 @@ addBorder(picture) = ["*****",
 * [input] array.string picture
 A non-empty array of non-empty equal-length strings.
 
-## Guaranteed constraints:
+Guaranteed constraints:
 
 1 ≤ picture.length ≤ 5,
 
