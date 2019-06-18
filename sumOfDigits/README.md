@@ -15,7 +15,7 @@ For n = 29, the output should be sumOfDigits(n) = 11.
 
 A positive two-digit integer.
 
-## Guaranteed constraints:
+Guaranteed constraints:
 
 10 ≤ n ≤ 99.
 
