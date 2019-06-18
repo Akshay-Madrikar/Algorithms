@@ -14,7 +14,7 @@ None
 * [input] array.string inputArray
 A non-empty array.
 
-## Guaranteed constraints:
+Guaranteed constraints:
 
 1 ≤ inputArray.length ≤ 10,
 
