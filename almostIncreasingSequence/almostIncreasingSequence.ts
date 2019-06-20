@@ -11,6 +11,5 @@ function almostIncreasingSequence(sequence: number[]): boolean {
     return count <= 1;
 }
 
-
 console.log(almostIncreasingSequence([3, 1, 2, 4])) //Output : true
 console.log(almostIncreasingSequence([1, 6, 5, 4])) //output : false
