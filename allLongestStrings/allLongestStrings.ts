@@ -15,5 +15,4 @@ function allLongestStrings(inputString: string[]): string[] {
     return longestWord
 }
 
-
 console.log(allLongestStrings(['akshay', 'abcefg', 'a', 'b', 'bc'])) //Output : [ 'akshay', 'abcefg' ]
