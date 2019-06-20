@@ -7,5 +7,4 @@ const sumOfDigits = ( num ) => {
     return sum
 }
 
-
 console.log( sumOfDigits( 215 ) ) //Output = 8
