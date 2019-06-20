@@ -12,5 +12,5 @@ function alternatingSums(num: number[]): number[] {
     return [evenSum, oddSum]
 }
 
-console.log(alternatingSums([50, 60, 70, 30]))
-console.log(alternatingSums([100, 60, 70, 30, 80]))
+console.log(alternatingSums([50, 60, 70, 30])) //Output : [ 120, 90 ]
+console.log(alternatingSums([100, 50, 70, 20, 80])) //Output : [ 250, 70 ]
