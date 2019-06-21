@@ -8,5 +8,5 @@ function areEquallyStorng(yourLeft: number, yourRight: number, friendsLeft: numb
     return yourWeakest === friendsWeakest && yourStrongest === friendsStrongest
 }
 
-console.log(areEquallyStorng(15, 10, 15, 10))
-console.log(areEquallyStorng(10, 15, 15, 9))
+console.log(areEquallyStorng(15, 10, 15, 10)) //Output : true
+console.log(areEquallyStorng(10, 15, 15, 9)) //Output : false
