@@ -24,6 +24,6 @@ function areSimilar(arr1: number[], arr2: number[]): boolean {
 
 }
 
-console.log(areSimilar([2, 2, 2], [2, 2, 2]))
-console.log(areSimilar([2, 3, 2], [3, 2, 2]))
-console.log(areSimilar([2, 4, 2], [2, 2, 1]))
+console.log(areSimilar([2, 2, 2], [2, 2, 2])) //Output : true
+console.log(areSimilar([2, 3, 2], [3, 2, 2])) //Output : true
+console.log(areSimilar([2, 4, 2], [2, 2, 1])) //Output : false
