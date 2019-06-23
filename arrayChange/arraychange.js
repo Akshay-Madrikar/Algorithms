@@ -11,5 +11,5 @@ const arrayChange = ( arr ) => {
     return count
 }
 
-console.log( arrayChange( [ 1, 1, 1 ] ) )
-console.log( arrayChange( [ 2, 2, 1 ] ) )
+console.log( arrayChange( [ 1, 1, 1 ] ) ) //Output : 3
+console.log( arrayChange( [ 2, 2, 1 ] ) ) //Output : 4
