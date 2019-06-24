@@ -17,6 +17,7 @@ We have [1, 2, 3, 4, 5, 6, 7, 8] -> [3, 7, 11, 15] -> [21, 165] -> [186], so the
 
 * [execution time limit] 5 seconds (ts)
 * [input] array.integer inputArray
+
 Guaranteed constraints:
 
 1 ≤ inputArray.length ≤ 20,
