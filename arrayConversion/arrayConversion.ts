@@ -24,7 +24,7 @@ function sumProduct(numbers: number[], isOdd: boolean): number[] {
     return sumProducts
 }
 
-console.log(arrayConversion([1, 2, 3, 4, 5, 6, 7, 8]))
-console.log(arrayConversion([1, 4, 6, 8]))
+console.log(arrayConversion([1, 2, 3, 4, 5, 6, 7, 8])) //Output : 186
+console.log(arrayConversion([1, 4, 6, 8])) //Output : 70
 
 
