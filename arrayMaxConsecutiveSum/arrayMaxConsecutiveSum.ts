@@ -19,5 +19,5 @@ function arrayMaxConsecutiveSum(inputArray: number[], k: number): number {
     return max
 }
 
-console.log(arrayMaxConsecutiveSum([1, 2, 3, 4, 5], 2))
-console.log(arrayMaxConsecutiveSum([1, 2, 3, 4, 5], 3))
+console.log(arrayMaxConsecutiveSum([1, 2, 3, 4, 5], 2)) //Output : 9
+console.log(arrayMaxConsecutiveSum([1, 2, 3, 4, 5], 3)) //Output : 12
