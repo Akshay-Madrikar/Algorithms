@@ -11,7 +11,9 @@ For inputArray = [2, 4, 1, 0], the output should be arrayMaximalAdjacentDifferen
 ## Input/Output
 
 * [time limit] 4000ms (js)
-* [input] array.integer inputArray
+* [input] array.integer 
+
+inputArray
 
 Guaranteed constraints:
 
@@ -20,4 +22,5 @@ Guaranteed constraints:
 -15 ≤ inputArray[i] ≤ 15.
 
 * [output] integer
+
 The maximal absolute difference.
