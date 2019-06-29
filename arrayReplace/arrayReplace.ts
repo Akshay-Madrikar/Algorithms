@@ -9,4 +9,4 @@ function arrayReplace(inputArray: number[], elemToReplace: number, substitutionE
 }
 
 console.log(arrayReplace([1, 3, 1], 1, 5)) //Output : [5, 3, 5]
-console.log(arrayReplace([4, 2, 4], 4, 1))
+console.log(arrayReplace([4, 2, 4], 4, 1)) //Output : [1, 2, 1]
