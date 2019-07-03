@@ -7,5 +7,5 @@ function caseInsensitivePalindrome(inputString: string): boolean {
 
 }
 
-console.log(caseInsensitivePalindrome('AaBaa'))
-console.log(caseInsensitivePalindrome('ajax'))
+console.log(caseInsensitivePalindrome('AaBaa')) //Output : true
+console.log(caseInsensitivePalindrome('JavaScript')) //Output : false
