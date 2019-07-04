@@ -8,5 +8,5 @@ function centuryFromYear(inputYear: number): number {
     return Math.floor(century) + 1
 }
 
-console.log(centuryFromYear(2000))
-console.log(centuryFromYear(2019))
+console.log(centuryFromYear(2000)) //Output : 20
+console.log(centuryFromYear(2019)) //Output : 21
