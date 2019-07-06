@@ -6,7 +6,7 @@ function checkPalindrome(inputString: string): boolean {
     return inputString === revString ? true : false
 }
 
-console.log(checkPalindrome('aabaa'))
-console.log(checkPalindrome('abac'))
-console.log(checkPalindrome('a'))
+console.log(checkPalindrome('aabaa')) //Output : true
+console.log(checkPalindrome('abac')) //Output : false
+console.log(checkPalindrome('a')) //Output : true
 
