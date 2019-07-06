@@ -1,9 +1,10 @@
-function characterParity(inputCharacter: any): string {
+function characterParity(inputCharacter: string): string {
 
+    const character = parseInt(inputCharacter)
 
-    if (isNaN(inputCharacter)) {
+    if (isNaN(character)) {
         return 'Not a digit'
-    } else if ((inputCharacter % 2 === 0)) {
+    } else if ((character % 2 === 0)) {
         return 'even'
     } else {
         return 'odd'
@@ -11,5 +12,5 @@ function characterParity(inputCharacter: any): string {
 
 }
 
-console.log(characterParity('8'))
-console.log(characterParity('100F'))
+console.log(characterParity('8')) //Output : even
+console.log(characterParity('100F')) //Output : Not a digit
