@@ -8,6 +8,6 @@ function compareIntegers(str1: string, str2: string): string {
     else return "Greater"
 }
 
-console.log(compareIntegers('12', '13'))
-console.log(compareIntegers('19', '19'))
-console.log(compareIntegers('708', '505'))
+console.log(compareIntegers('12', '13')) //Output : Less
+console.log(compareIntegers('19', '19')) //Output : Equal
+console.log(compareIntegers('708', '505')) //Output : Greater
