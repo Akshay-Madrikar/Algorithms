@@ -4,5 +4,5 @@ function confirmEnding(str: string, subStr: string): boolean {
     return str.substr(len) === subStr
 }
 
-console.log(confirmEnding('Abstraction', 'action'))
-console.log(confirmEnding("Open sesame", "pen"))
+console.log(confirmEnding('Abstraction', 'action')) //Output : true
+console.log(confirmEnding("Open sesame", "pen")) //Output : false
