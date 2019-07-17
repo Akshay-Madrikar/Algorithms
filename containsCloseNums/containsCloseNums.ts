@@ -4,15 +4,15 @@ function containsCloseNums(nums: number[], k: number): boolean {
         for (let j = 0; j <= nums.length; j++) {
             if (i !== j) {
                 if (nums[i] === nums[j]) {
-                    if(Math.abs(i -j) <= k){
+                    if (Math.abs(i - j) <= k) {
                         return true
                     }
                 }
             }
         }
     }
-   return false
+    return false
 }
 
-console.log(containsCloseNums([0, 1, 2, 3, 5, 2], 3))
-console.log(containsCloseNums([0, 1, 2, 3, 5, 2], 2))
+console.log(containsCloseNums([0, 1, 2, 3, 5, 2], 3)) //Output : true
+console.log(containsCloseNums([0, 1, 2, 3, 5, 2], 2)) //Output : false
