@@ -11,5 +11,5 @@ function containsDuplicates(nums: number[]): boolean {
     return false
 }
 
-console.log(containsDuplicates([1, 2, 3, 1]))
-console.log(containsDuplicates([1, 2, 3, 4]))
+console.log(containsDuplicates([1, 2, 3, 1])) //Output : true
+console.log(containsDuplicates([1, 2, 3, 4])) //Output : false
