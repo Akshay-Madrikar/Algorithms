@@ -16,6 +16,6 @@ function convertString(s: string, t: string): boolean {
     return false
 }
 
-console.log(convertString('ceoydefthf5iyg5h5yts', 'codefights'))
-console.log(convertString('addbyca', 'abcd'))
-console.log(convertString('addbyca', 'abc'))
+console.log(convertString('ceoydefthf5iyg5h5yts', 'codefights')) //Output : true
+console.log(convertString('addbyca', 'abcd')) //Output : false
+console.log(convertString('addbyca', 'abc')) //Output : true
