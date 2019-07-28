@@ -9,5 +9,5 @@ function depositProfit(deposit: number, rate: number, threshold: number): number
     return year
 }
 
-console.log(depositProfit(100, 20, 170))
-console.log(depositProfit(100, 20, 200))
+console.log(depositProfit(100, 20, 170)) //Output : 3
+console.log(depositProfit(100, 20, 200)) //Output : 4
