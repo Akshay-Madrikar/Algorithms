@@ -1,13 +1,14 @@
 function differentSymbolsNaive(inputString: String): number {
     let uniqueCharacter: string[] = []
-    const alphabets: string[] = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-    let s1 = inputString.split('')
-    if (alphabets.includes(s1)) {
+    let inputChars: string[] = inputString.split('')
 
-
-    }
-    return s1
+    inputChars.forEach((char) => {
+        if (!uniqueCharacter.includes(char)) {
+            uniqueCharacter.push(char)
+        }
+    })
+    return uniqueCharacter.length
 }
 
 console.log(differentSymbolsNaive('cabca'))
