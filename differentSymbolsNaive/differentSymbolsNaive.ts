@@ -11,5 +11,5 @@ function differentSymbolsNaive(inputString: String): number {
     return uniqueCharacter.length
 }
 
-console.log(differentSymbolsNaive('cabca'))
-console.log(differentSymbolsNaive('abcd'))
+console.log(differentSymbolsNaive('cabca')) //Output : 3
+console.log(differentSymbolsNaive('abcd')) //Output : 4
