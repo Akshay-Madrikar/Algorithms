@@ -25,6 +25,6 @@ function getDigit(num: number) {
     })
 }
 
-console.log(digitDegree(5))
-console.log(digitDegree(100))
-console.log(digitDegree(91))
+console.log(digitDegree(5)) //Output : 0
+console.log(digitDegree(100)) //Output : 1
+console.log(digitDegree(91)) //Output : 2
