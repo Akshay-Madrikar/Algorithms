@@ -20,4 +20,4 @@ function domainType(domains: string[]): string[] {
     return domainType
 }
 
-console.log(domainType(["en.wiki.org", "codefights.com", "happy.net", "code.info"]))
+console.log(domainType(["en.wiki.org", "codefights.com", "happy.net", "code.info"])) //Output : ["organization", "commercial", "network", "information"]
