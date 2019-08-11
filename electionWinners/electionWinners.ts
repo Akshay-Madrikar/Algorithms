@@ -16,4 +16,4 @@ function electionWinners(votes: number[], k: number): number {
     return result
 }
 
-console.log(electionWinners([2, 3, 5, 2], 3))
+console.log(electionWinners([2, 3, 5, 2], 3)) //Output : 2
